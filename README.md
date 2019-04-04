@@ -25,6 +25,7 @@ The site when first installed will run with the default configurations and theme
 To edit the configurations and themeing for the site, **files must be edited inside the docker container, not locally in the directory that was cloned from github**. In order to access the docker container with the application content, use the following command:
 
 `sudo docker exec -it ` *name of the fixmystreet container* ` bash`
+
 (`sudo docker exec -it fixmystreet_fixmystreet_1_499f08dcc4f9 bash` for example)
 
 The name of the fixmystreet container will be something like `fixmystreet_fixmystreet_1_499f08dcc4f9` and can be found using `sudo docker ps` and checking for the name of the container with the image labeled `fixmystreet/fixmystreet:stable`.
@@ -34,11 +35,14 @@ Once inside the container, the directory in which the application files are loca
 
 Once in this directory, the default configuration file can be removed and replaced with the conf/general.yml file from this repository. To remove the original configuration file, use `rm -rf conf/general.yml`. To replace it with the configuration file from this repository, exit the docker container and run the following command from the main folder of this repository:
 
-`sudo docker cp conf/general.yml fixmystreet_fixmystreet_1_499f08dcc4f9:/var/www/fixmystreet/fixmystreet/conf/general.yml` , substituting in the name of your docker container.
+`sudo docker cp conf/general.yml fixmystreet_fixmystreet_1_499f08dcc4f9:/var/www/fixmystreet/fixmystreet/conf/general.yml`
+
+substituting in the name of your docker container.
 
 To add the themeing files, similarly run the following commands:
 
 `sudo docker cp templates/web/fixmycommunity  fixmystreet_fixmystreet_1_499f08dcc4f9:/var/www/fixmystreet/fixmystreet/templates/web/fixmycommunity`
+
 `sudo docker cp web/cobrands/fixmycommunity fixmystreet_fixmystreet_1_499f08dcc4f9:/var/www/fixmystreet/fixmystreet/web/cobrands/fixmycommunity`
 
 This copies the theme in as a cobrand called fixmycommunity. In the general.yml file in this repository, the fixmycommunity theme is specified as the default.
