@@ -35,7 +35,7 @@ using_frontend_proxy: 1
 
 # Email domain used for emails, and contact name/email for admin use.
 EMAIL_DOMAIN: 'ndi.org'
-CONTACT_EMAIL: 'blynch@ndi.org'
+CONTACT_EMAIL: 'nditech@ndi.org'
 CONTACT_NAME: 'FMC Team'
 # Address used for emails you don't expect a reply to (e.g. confirmation
 # emails); can be same as CONTACT_EMAIL above, of course, if you don't have a
@@ -61,7 +61,7 @@ STAGING_FLAGS:
 
 # What to use as front page/alert example places placeholder
 # Defaults to High Street, Main Street
-EXAMPLE_PLACES: [ 'Kipande Road', 'Jogoo Road' ]
+EXAMPLE_PLACES: [ 'Pennsylvania Ave NW', 'Constitution Ave' ]
 
 # An array of languages for the site, in the following format:
 # <language code>,<pretty name>,<locale>
@@ -190,7 +190,7 @@ MAP_TYPE: 'OSM'
 # This also allows development servers to map to different cobrands if needed,
 # using DNS subdomains for example.
 ALLOWED_COBRANDS:
-#  - demo
+  - fixmycommunity
 #  - cobrand2: 'hostname_substring2'
 #  - cobrand3
 
