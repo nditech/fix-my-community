@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  fixmystreet:
+    volumes:
+      - ../fixmycommunity-demo-themes/conf/general.yml:/var/www/fixmystreet/fixmystreet/conf/general.yml
+      - ../fixmycommunity-demo-themes/fixmycommunity-cobrand:/var/www/fixmystreet/cobrand
+
