@@ -1,3 +1,15 @@
+<h1 align="center">
+  <a href="https://www.ndi.org/"><img src="https://www.ndi.org/sites/all/themes/ndi/images/NDI_logo_svg.svg" alt="NDI Logo" width="200"></a>
+</h1>
+
+<h1 align="center">
+  Fix My Community
+</h1>
+
+  ### Table of Contents
+  1. [Installation](#installation)
+  1. [Additional Configuration](#additional-configuration)
+
 This repository contains themeing and configuration files for FixMyCommunity, NDI's version of FixMyStreet. The instructions below explain how to install FixMyStreet and apply the customized themeing.
 
 ### Installation
@@ -28,6 +40,7 @@ This commands will start the application and launch four containers: nginx, memc
 
 By default, the site should then be available at localhost:8000 when installed locally, or at port 8000 if deployed on a server (*server-ip*:8000). The site should be spun up using the custom theme.
 
+### Additional Configuration
 
 For more detailed information on installation and themeing of FixMyStreet, go to https://fixmystreet.org/overview/
 
