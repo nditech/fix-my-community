@@ -27,7 +27,7 @@ git clone https://github.com/nditech/fixmycommunity-demo-themes.git
 
 Then, move the docker overide file into the fixmystreet folder with the command below. This file tells fixmystreet where to find the custom theme and config file.
 ```
-mv fixmycommunity-demo-themes/docker-compose.override.yml fixmystreet/docker-compose.override.yml
+cp fixmycommunity-demo-themes/docker-compose.override.yml fixmystreet/docker-compose.override.yml
 ```
 
 Now, start up FixMyStreet 
