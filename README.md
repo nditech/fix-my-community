@@ -7,8 +7,8 @@
 </h1>
 
 <h1 align="center">
-  <img src="https://www.mysociety.org/files/2014/11/mysociety-logo.jpg" alt ="MySociety Logo" width="100">
-  <img src="https://www.mysociety.org/files/2014/11/fixmystreet-logo.jpg" alt ="FixMystreet Logo" width="100">
+  <a href="https://www.mysociety.org/"><img src="https://www.mysociety.org/files/2014/11/mysociety-logo.jpg" alt ="MySociety Logo" width="100"></a>
+  <a href="https://fixmystreet.org/"><img src="https://www.mysociety.org/files/2014/11/fixmystreet-logo.jpg" alt ="FixMystreet Logo" width="100"></a>
 </h1>
 
   ### Table of Contents
