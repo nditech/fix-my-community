@@ -1,6 +1,6 @@
 <div align="center">
     <div>
-      <a href="https://fixmystreet.org/"><img src="https://www.mysociety.org/files/2014/11/fixmystreet-logo.jpg" alt ="FixMystreet Logo" width="100"></a>
+      <a href="https://fixmystreet.org/"><img src="https://www.mysociety.org/files/2014/11/fixmystreet-logo.jpg" alt ="FixMystreet Logo" width="200"></a>
       <a href="https://www.ndi.org/"><img src="https://www.ndi.org/sites/all/themes/ndi/images/NDI_logo_svg.svg" alt="NDI Logo" width="200"></a>
     </div>
     <div>
