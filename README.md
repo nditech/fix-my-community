@@ -32,12 +32,12 @@ The only dependency needed to run FixMyStreet is Docker and Docker-compose. Inst
 Begin by installing both this repository along with the latest version of fixmystreet with the commands below. 
 ```
 git clone https://github.com/mysociety/fixmystreet.git
-git clone https://github.com/nditech/fixmycommunity-demo-themes.git
+git clone https://github.com/nditech/fix-my-community.git
 ```
 
 Then, move the docker overide file into the fixmystreet folder with the command below. This file tells fixmystreet where to find the custom theme and config file.
 ```
-cp fixmycommunity-demo-themes/docker-compose.override.yml fixmystreet/docker-compose.override.yml
+cp fix-my-community/docker-compose.override.yml fixmystreet/docker-compose.override.yml
 ```
 
 Now, start up FixMyStreet 
