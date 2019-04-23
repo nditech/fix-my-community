@@ -12,6 +12,8 @@
   Fix My Community
 </h1>
 
+
+
   ### Table of Contents
   1. [Overview](#overview)
   1. [Installation](#installation)
@@ -19,9 +21,9 @@
 
 ### Overview
 
-The FixMyCommunity (FMC) DemTool is created from the [FixMyStreet tool](https://fixmystreet.org/) developed by [mySociety](https://www.mysociety.org/). This tool empowers citizens to flag problems in their communities and to bring them to the attention of those who can fix them - or to rally the public around unaddressed issues. Crowdsourcing can put many eyes to work spotting critical problems citizens face. The tool routes citizen-submitted reports together with photos to the key government institutions who can solve them. By making complaints and government updates visible to the public, the tool helps officials demonstrate that they are taking action on the issues that concern citizens. Systems like FixMyCommunity have been used for reporting everything from potholes to bribes and are a useful bridge between citizens and their representatives.
+The Fix My Community (FMC) DemTool is created from the [FixMyStreet tool](https://fixmystreet.org/) developed by [mySociety](https://www.mysociety.org/). This tool empowers citizens to flag problems in their communities and to bring them to the attention of those who can fix them - or to rally the public around unaddressed issues. Crowdsourcing can put many eyes to work spotting critical problems citizens face. The tool routes citizen-submitted reports together with photos to the key government institutions who can solve them. By making complaints and government updates visible to the public, the tool helps officials demonstrate that they are taking action on the issues that concern citizens. Systems like Fix My Community have been used for reporting everything from potholes to bribes and are a useful bridge between citizens and their representatives.
 
-This repository contains themeing and configuration files for FixMyCommunity, NDI’s adapted version of FixMyStreet. The instructions below explain how to install FixMyStreet and apply the customized themeing.
+This repository contains themeing and configuration files for Fix My Community, NDI’s adapted version of FixMyStreet. The instructions below explain how to install FixMyStreet and apply the customized themeing.
 
 ### Installation
 
